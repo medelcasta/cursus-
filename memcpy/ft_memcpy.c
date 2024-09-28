@@ -6,7 +6,7 @@ void * ft_memcpy(void *restrict dst, const void *restrict src, size_t n)
     const char *s;
 
     d = dst;
-    s = src;
+    s = src; 
     while(n > 0){
         *d = *s;
         n--;
