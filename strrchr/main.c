@@ -3,7 +3,9 @@
 
 #include "ft_strrchr.c"
 
-int main(){
-    char src[] = "mario";
-    printf("%s\n", ft_strrchr(src, 97));
+int main() {
+    const char* text = "Hola, mundo!";
+    int ch = 0;
+    char* result = ft_strrchr(text, ch);
+    printf("Última aparición del carácter '%c' encontrada en: %s\n", ch, result);
 }
