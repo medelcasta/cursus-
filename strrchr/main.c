@@ -5,7 +5,7 @@
 
 int main() {
     const char* text = "Hola, mundo!";
-    int ch = 0;
+    int ch = 72;
     char* result = ft_strrchr(text, ch);
     printf("Última aparición del carácter '%c' encontrada en: %s\n", ch, result);
 }
